@@ -1,0 +1,12 @@
+/Users/ericzuniga/Desktop/Gunstoreshoppingcart/Gunstoreshoppingcart/Gunstoreshoppingcart/bin/Debug/netcoreapp3.1/Gunstoreshoppingcart.deps.json
+/Users/ericzuniga/Desktop/Gunstoreshoppingcart/Gunstoreshoppingcart/Gunstoreshoppingcart/bin/Debug/netcoreapp3.1/Gunstoreshoppingcart.runtimeconfig.json
+/Users/ericzuniga/Desktop/Gunstoreshoppingcart/Gunstoreshoppingcart/Gunstoreshoppingcart/bin/Debug/netcoreapp3.1/Gunstoreshoppingcart.runtimeconfig.dev.json
+/Users/ericzuniga/Desktop/Gunstoreshoppingcart/Gunstoreshoppingcart/Gunstoreshoppingcart/bin/Debug/netcoreapp3.1/Gunstoreshoppingcart.dll
+/Users/ericzuniga/Desktop/Gunstoreshoppingcart/Gunstoreshoppingcart/Gunstoreshoppingcart/bin/Debug/netcoreapp3.1/Gunstoreshoppingcart.pdb
+/Users/ericzuniga/Desktop/Gunstoreshoppingcart/Gunstoreshoppingcart/Gunstoreshoppingcart/obj/Debug/netcoreapp3.1/Gunstoreshoppingcart.csprojAssemblyReference.cache
+/Users/ericzuniga/Desktop/Gunstoreshoppingcart/Gunstoreshoppingcart/Gunstoreshoppingcart/obj/Debug/netcoreapp3.1/Gunstoreshoppingcart.AssemblyInfoInputs.cache
+/Users/ericzuniga/Desktop/Gunstoreshoppingcart/Gunstoreshoppingcart/Gunstoreshoppingcart/obj/Debug/netcoreapp3.1/Gunstoreshoppingcart.AssemblyInfo.cs
+/Users/ericzuniga/Desktop/Gunstoreshoppingcart/Gunstoreshoppingcart/Gunstoreshoppingcart/obj/Debug/netcoreapp3.1/Gunstoreshoppingcart.csproj.CoreCompileInputs.cache
+/Users/ericzuniga/Desktop/Gunstoreshoppingcart/Gunstoreshoppingcart/Gunstoreshoppingcart/obj/Debug/netcoreapp3.1/Gunstoreshoppingcart.dll
+/Users/ericzuniga/Desktop/Gunstoreshoppingcart/Gunstoreshoppingcart/Gunstoreshoppingcart/obj/Debug/netcoreapp3.1/Gunstoreshoppingcart.pdb
+/Users/ericzuniga/Desktop/Gunstoreshoppingcart/Gunstoreshoppingcart/Gunstoreshoppingcart/obj/Debug/netcoreapp3.1/Gunstoreshoppingcart.genruntimeconfig.cache
