@@ -1,30 +1,57 @@
 ﻿using System;
 
 namespace GunStoreShoppingCart
-{
-    class InstagramPage
-    {
-        string users;
-        string roles;
-        string images;
-        string posts;
-        string comments;
 
+{  class users
+    {
+        string name;
+        int age;
+        string gender;
+        int DOB;
+
+        class roles
+        {
+            string editor;
+            string administrator;
+            string author;
+
+            class images
+            {
+                string pdf;
+                string jpeg;
+                string xls;
+
+                class posts
+                {
+
+                    string memes;
+                    string images;
+                    string videos;
+
+                    class comments
+                    {
+
+                        string blog;
+                        string newsstories;
+
+                    }
+                }
+
+
+            }
+
+
+        }
+
+
+    }
+    class Program
+    {
         static void Main(string[] args)
         {
-            InstagramPage page = new InstagramPage();
-            page.users = "Enduser";
-            page.roles = "actors";
-            page.images = "pictures";
-            page.posts = "new blog";
-            page.comments = "what do you think";
-
-
-            Console.WriteLine(page.comments);
-            Console.WriteLine(page.users);
-            Console.WriteLine(page.posts);
-
+            
         }
     }
 }
+
     
