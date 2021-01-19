@@ -1,4 +1,5 @@
 ﻿using System;
+using Gunstoreshoppingcart.Models;
 
 namespace Gunstoreshoppingcart
 {
@@ -6,39 +7,32 @@ namespace Gunstoreshoppingcart
     {
         static void Main(string[] args)
         {
-            Users nameObject = new Users();
+            Users objectuser = new Users();
 
-            nameObject.Superuser = "Eric Zuniga";
+            objectuser.SuperUser = "Eric Zuniga";
+            Console.WriteLine(objectuser.SuperUser);
 
-            Console.Write(nameObject.Superuser);
+
+            Users objectuser2 = new Users();
+
+            objectuser2.Email = "ezuniga@southwestuniversity.edu";
+            Console.WriteLine(objectuser2.Email);
+
+
+
+            Roles role1 = new Roles();
+
+            role1.RoleName = "Team Lead";
+            Console.WriteLine(role1.RoleName);
+
+            Roles role2 = new Roles();
+
+            role2.RoleType = "Management";
+            Console.WriteLine(role2.RoleType);
+
+
         }
     }
 }
 
-public class Users
-{
-   public string Superuser { get; set; }
-
-    
-}
-
-public class Roles
-{
-   public string types { get; set; }
-}
-
-public class Images
-{
-   public string art { get; set; } 
-
-}
-
-public class Posts
-{
-    public string articles { get; set; } 
-}
-
-public class Comments
-{
-    public string good { get; set; }
-}
+ 
