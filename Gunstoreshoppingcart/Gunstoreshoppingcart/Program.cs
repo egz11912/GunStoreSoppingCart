@@ -7,30 +7,18 @@ namespace Gunstoreshoppingcart
     {
         static void Main(string[] args)
         {
-            Users objectuser = new Users();
+            DateTime date1 = new DateTime(2021, 11, 18);
+            DateTime date2 = new DateTime(2022, 11, 18);
 
-            objectuser.SuperUser = "Eric Zuniga";
-            Console.WriteLine(objectuser.SuperUser);
+            if (date1 > date2)
 
+            {
+                Console.WriteLine(date1);
 
-            Users objectuser2 = new Users();
+            }
+            else
 
-            objectuser2.Email = "ezuniga@southwestuniversity.edu";
-            Console.WriteLine(objectuser2.Email);
-
-
-
-            Roles role1 = new Roles();
-
-            role1.RoleName = "Team Lead";
-            Console.WriteLine(role1.RoleName);
-
-            Roles role2 = new Roles();
-
-            role2.RoleType = "Management";
-            Console.WriteLine(role2.RoleType);
-
-
+                Console.WriteLine(date2);
         }
     }
 }
