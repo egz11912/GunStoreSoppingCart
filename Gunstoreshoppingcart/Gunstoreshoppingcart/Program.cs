@@ -5,22 +5,22 @@ namespace Gunstoreshoppingcart
 {
     class Program
     {
-        static void Main(string[] args)
+        public class SumOnetoTwentyNumbers
         {
-            DateTime date1 = new DateTime(2021, 11, 18);
-            DateTime date2 = new DateTime(2022, 11, 18);
-
-            if (date1 > date2)
-
+            public static void Main(string[] args)
             {
-                Console.WriteLine(date1);
-
+                int numStart = 1;
+                int numLast = 20;
+                int sum = 0;
+                while (numStart <= numLast)
+                {
+                    sum = sum + numStart;
+                    numStart++;
+                }
+                Console.Write("Sum of all Digits = " + sum);
             }
-            else
-
-                Console.WriteLine(date2);
         }
     }
 }
 
- 
+
