@@ -1,45 +1,78 @@
 ﻿using System;
-using System.Collections.Generic;
-namespace Gunstoreshoppingcart {
+namespace Gunstoreshoppingcart.Models
 
-};
-
-class Program
 {
-    static void Main()
+    class Program
     {
-
+        static void Main()
         {
-            int[] a = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-            
-            Console.WriteLine("Array elements are:");
-            foreach (int i in a)  
+            string response = "";
+
+            while (response != "6")
             {
-                Console.Write(i + "  ");   
+                Console.WriteLine("1.  Create a User");
+                Console.WriteLine("2.  Create an Image");
+                Console.WriteLine("3.  Create a Post");
+                Console.WriteLine("4.  Create a Role");
+                Console.WriteLine("5.  Create a Comment");
+                Console.WriteLine("6.  Exit");
+
+                Console.WriteLine("");
+                Console.WriteLine("Please make a selection");
+
+                response = Console.ReadLine();
+
+                switch (response)
+                {
+                    case "1":
+                        Users user = new Users();
+                        user.UserId = 1;
+                        user.Email = "egz11912@gmail.com";
+                        user.SuperUser = "yes";
+
+                        Console.WriteLine("The user email you created is: " + user.Email);
+
+                        break;
+                    case "2":
+                        Images image = new Images();
+                        image.ArtID = 10;
+                        image.ArtistName = "Ray Schumaker";
+
+                        Console.WriteLine("The Artist name you selected is: " + image.ArtistName);
+
+                        break;
+                    case "3":
+                        Posts post = new Posts();
+                        post.PostId = 100;
+                        post.PostType = "new submission";
+
+                        Console.WriteLine("The post type you selected is: " + post.PostType);
+
+                        break;
+                    case "4":
+                        Roles role = new Roles();
+                        role.RoleType = "Administrator";
+                        role.RoleName = "Team Lead";
+
+                        Console.WriteLine("The role name you selected is: " + role.RoleName);
+
+                        break;
+                    case "5":
+                        Comments comment = new Comments();
+                        comment.CommentId = 43;
+                        comment.CommentDescription = "Bold and Fresh";
+
+                        Console.WriteLine("The comment description you have selected is: " + comment.CommentDescription);
+
+                        break;
+
+                        
+                }
+
+                Console.WriteLine("Your response is: " + response);
             }
 
-            Console.WriteLine();
-            Console.WriteLine();
 
-            Console.WriteLine("List elements are:");
-            List<double> b = new List<double>();
-
-            b.Add(14.5);
-            b.Add(89.7);
-            b.Add(76.3);
-            b.Add(90.90);
-            b.Add(43.2);
-            b.Add(6.1);
-            b.Add(100.1);
-            b.Add(23.234);
-            b.Add(27.21);
-            b.Add(4.12);
-
-            for (int i = 0; i < b.Count; i++)
-            {
-                Console.Write(b[i] + ",   ");
-            }
         }
     }
-
 }
