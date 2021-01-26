@@ -30,7 +30,15 @@ namespace Gunstoreshoppingcart.Models
                         user.Email = "egz11912@gmail.com";
                         user.SuperUser = "yes";
 
-                        Console.WriteLine("The user email you created is: " + user.Email);
+                        
+                        Console.WriteLine();
+
+                        Console.WriteLine("1.  Enter User Id");
+                        Console.WriteLine("2.  Enter User Email");
+                        Console.WriteLine();
+                        Console.WriteLine("Please make a selection");
+
+                        response = Console.ReadLine();
 
                         break;
                     case "2":
@@ -69,7 +77,7 @@ namespace Gunstoreshoppingcart.Models
                         
                 }
 
-                Console.WriteLine("Your response is: " + response);
+                
             }
 
 
