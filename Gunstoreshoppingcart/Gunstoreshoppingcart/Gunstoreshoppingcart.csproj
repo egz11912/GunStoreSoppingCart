@@ -14,5 +14,7 @@
     <Compile Remove="EmptyClass.cs" />
     <Compile Remove="Models\RoleDTO.cs" />
     <Compile Remove="Models\UserDTO.cs" />
+    <Compile Remove="Program7.cs" />
+    <Compile Remove="Program.cs" />
   </ItemGroup>
 </Project>

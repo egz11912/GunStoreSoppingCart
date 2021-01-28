@@ -1,9 +1,9 @@
 ﻿using System;
 namespace Gunstoreshoppingcart.Models
 {
-    public class Comments
+    public class Comment
     {
-        public Comments()
+        public Comment()
         {
         }
 
