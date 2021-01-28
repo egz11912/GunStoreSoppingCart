@@ -1,0 +1,3 @@
+/Users/ericzuniga/Desktop/Gunstoreshoppingcart/Gunstoreshoppingcart/Gunstoreshoppingcart/obj/Release/netcoreapp3.1/Gunstoreshoppingcart.AssemblyInfoInputs.cache
+/Users/ericzuniga/Desktop/Gunstoreshoppingcart/Gunstoreshoppingcart/Gunstoreshoppingcart/obj/Release/netcoreapp3.1/Gunstoreshoppingcart.AssemblyInfo.cs
+/Users/ericzuniga/Desktop/Gunstoreshoppingcart/Gunstoreshoppingcart/Gunstoreshoppingcart/obj/Release/netcoreapp3.1/Gunstoreshoppingcart.csproj.CoreCompileInputs.cache
