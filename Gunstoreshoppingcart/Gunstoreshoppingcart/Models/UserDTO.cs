@@ -17,6 +17,6 @@ namespace BakeryShoppingCart.DTOS
 
         public string Email { get; set; }
 
-        public RoleDTO Role { get; set; }
+        
     }
 }

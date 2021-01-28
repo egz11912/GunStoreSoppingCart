@@ -8,4 +8,11 @@
   <ItemGroup>
     <Folder Include="Models\" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Models\CakeDTO.cs" />
+    <Compile Remove="Models\CakeReviewDTO.cs" />
+    <Compile Remove="EmptyClass.cs" />
+    <Compile Remove="Models\RoleDTO.cs" />
+    <Compile Remove="Models\UserDTO.cs" />
+  </ItemGroup>
 </Project>
