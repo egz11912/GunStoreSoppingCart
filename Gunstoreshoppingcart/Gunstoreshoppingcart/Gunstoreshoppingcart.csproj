@@ -16,5 +16,6 @@
     <Compile Remove="Models\UserDTO.cs" />
     <Compile Remove="Program7.cs" />
     <Compile Remove="Program.cs" />
+    <Compile Remove="Programmid.cs" />
   </ItemGroup>
 </Project>

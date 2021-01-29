@@ -91,7 +91,11 @@ namespace Gunstoreshoppingcart
             {
                 throw new IdNotFoundException("No users with id of 10");
             }
-             
+
+            try
+            {
+
+            }
 
              catch (IdNotFoundException Exception)
             {
