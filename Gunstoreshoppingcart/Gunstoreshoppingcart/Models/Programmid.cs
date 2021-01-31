@@ -13,7 +13,7 @@ namespace Gunstoreshoppingcart
         static void Main()
         {
             NewClass<string> myNewclass = new NewClass<string>();
-            myNewclass.FirstGenericProperty = "A new string";
+            myNewclass.FirstGenericProperty = "A New string";
 
             NewClass<int> myNewClass2 = new NewClass<int>();
             myNewClass2.FirstGenericProperty = 12345;

@@ -1,12 +1,12 @@
 ﻿<Properties StartupConfiguration="{D43E5120-5009-427C-ABEE-D3A9AD6F2A94}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Gunstoreshoppingcart/Models/Programmid.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Gunstoreshoppingcart/Models/Program7.cs">
     <Files>
-      <File FileName="Gunstoreshoppingcart/Models/Comments.cs" Line="2" Column="1" />
-      <File FileName="Gunstoreshoppingcart/Models/Images.cs" />
-      <File FileName="Gunstoreshoppingcart/Models/Posts.cs" />
-      <File FileName="Gunstoreshoppingcart/Models/public class Users.cs" />
-      <File FileName="Gunstoreshoppingcart/Models/Roles.cs" />
-      <File FileName="Gunstoreshoppingcart/Models/Programmid.cs" Line="45" Column="40" />
+      <File FileName="Gunstoreshoppingcart/Models/Comments.cs" Line="1" Column="1" />
+      <File FileName="Gunstoreshoppingcart/Models/Images.cs" Line="1" Column="1" />
+      <File FileName="Gunstoreshoppingcart/Models/Posts.cs" Line="1" Column="1" />
+      <File FileName="Gunstoreshoppingcart/Models/public class Users.cs" Line="1" Column="1" />
+      <File FileName="Gunstoreshoppingcart/Models/Roles.cs" Line="1" Column="1" />
+      <File FileName="Gunstoreshoppingcart/Models/Program7.cs" Line="81" Column="64" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,7 +17,7 @@
                 <Node name="FrameworkReferences" expanded="True" />
               </Node>
               <Node name="Models" expanded="True">
-                <Node name="Programmid.cs" selected="True" />
+                <Node name="Program7.cs" selected="True" />
               </Node>
             </Node>
           </Node>
