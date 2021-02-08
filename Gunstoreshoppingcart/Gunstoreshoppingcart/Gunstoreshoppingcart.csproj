@@ -18,5 +18,9 @@
     <Compile Remove="Program.cs" />
     <Compile Remove="Programmid.cs" />
     <Compile Remove="Models\Programmid.cs" />
+    <Compile Remove="Models\Program7.cs" />
+    <Compile Remove="Models\Program7x3.cs" />
+    <Compile Remove="Models\NewClass.cs" />
+    <Compile Remove="Models\Images.cs" />
   </ItemGroup>
 </Project>

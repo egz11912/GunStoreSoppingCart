@@ -1,10 +1,12 @@
 ﻿using System;
+
 namespace Gunstoreshoppingcart.Models
 {
     public class User
     {
         public User()
         {
+
         }
 
         public string SuperUser { get; set; }

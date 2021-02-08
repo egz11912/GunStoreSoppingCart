@@ -13,7 +13,6 @@ namespace Gunstoreshoppingcart
             try
             {
 
-
                 List<User> myList = new List<User>();
 
                 User myFirstUser = new User();
@@ -78,7 +77,7 @@ namespace Gunstoreshoppingcart
                 myTenthUser.SuperUser = ("yes");
                 myList.Add(myTenthUser);
 
-                myList = myList.Where(user => user.UserId == 10).ToList();
+                myList = myList.Where(user => user.UserId == 8).ToList();
 
                 if (myList.Count > 0)
                 {

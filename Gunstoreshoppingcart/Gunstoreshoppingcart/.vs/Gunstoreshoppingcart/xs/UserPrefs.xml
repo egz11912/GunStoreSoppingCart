@@ -3,7 +3,9 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Gunstoreshoppingcart" expanded="True" selected="True" />
+          <Node name="Gunstoreshoppingcart" expanded="True">
+            <Node name="Gunstoreshoppingcart" selected="True" />
+          </Node>
         </State>
       </Pad>
     </Pads>
