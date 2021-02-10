@@ -29,9 +29,12 @@ namespace Gunstoreshoppingcart
             repository.Save(newUsers2);
             repository.Save(newUsers3);
 
+            repository.GetAllUsersByName(name: "Jordan Z");
+
+
             
 
-             
+            
         }
 
     }

@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using Gunstoreshoppingcart.Exceptions;
 using Gunstoreshoppingcart.Models;
 
 namespace Gunstoreshoppingcart.Repositories.Implementation
@@ -11,9 +14,25 @@ namespace Gunstoreshoppingcart.Repositories.Implementation
 
         public void GetAllUsersByName(string name)
         {
-            throw new NotImplementedException();
-        }
+            List<Users> resultList =
+               currentDatabase.Where(Users => Users.UserName == "Jordan Z").ToList();
 
+            if (resultList.Count > 0)
+            {
+                foreach (var role in resultList)
+                {
+                    Console.WriteLine(role.UserName);
+                    Console.WriteLine(role.UserId);
+                }
+
+
+
+            }
+            else
+            {
+                throw new UserNameNotFound("No user of that name found");
+            }
+        }
 
 
     }
