@@ -2,9 +2,9 @@
 
 namespace Gunstoreshoppingcart.Models
 {
-    public class User
+    public class Users
     {
-        public User()
+        public Users()
         {
 
         }
@@ -12,7 +12,8 @@ namespace Gunstoreshoppingcart.Models
         public string SuperUser { get; set; }
         public int UserId { get; set; }
         public string Email { get; set; }
-         
+        public string UserName { get; set; }
+
 
     }
 }
