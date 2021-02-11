@@ -1,34 +1,32 @@
 ﻿<Properties StartupConfiguration="{D43E5120-5009-427C-ABEE-D3A9AD6F2A94}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Gunstoreshoppingcart/Repositories/Implementation/RolesRepository.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Gunstoreshoppingcart/FileManager/FileManagerClass.cs">
     <Files>
       <File FileName="Gunstoreshoppingcart/Repositories/Implementation/MainRepository.cs" Line="8" Column="15" />
       <File FileName="Gunstoreshoppingcart/Models/Roles.cs" />
-      <File FileName="Gunstoreshoppingcart/Repositories/IUsers_Repository.cs" />
+      <File FileName="Gunstoreshoppingcart/Repositories/IUsers_Repository.cs" Line="11" Column="1" />
       <File FileName="Gunstoreshoppingcart/Models/Users.cs" />
-      <File FileName="Gunstoreshoppingcart/Repositories/Implementation/UsersRepository.cs" Line="18" Column="66" />
+      <File FileName="Gunstoreshoppingcart/Repositories/Implementation/UsersRepository.cs" Line="18" Column="81" />
       <File FileName="Gunstoreshoppingcart/Exceptions/RoleTypeNotFound.cs" />
       <File FileName="Gunstoreshoppingcart/Repositories/IComments_Repository.cs" />
       <File FileName="Gunstoreshoppingcart/Models/Comments.cs" />
       <File FileName="Gunstoreshoppingcart/Repositories/Implementation/CommentRepository.cs" />
       <File FileName="Gunstoreshoppingcart/Models/Posts.cs" />
       <File FileName="Gunstoreshoppingcart/Exceptions/UserNameNotFound.cs" />
-      <File FileName="Gunstoreshoppingcart/Repositories/Implementation/Program.cs" Line="32" Column="54" />
+      <File FileName="Gunstoreshoppingcart/Repositories/Implementation/Program.cs" Line="16" Column="37" />
       <File FileName="Gunstoreshoppingcart/Repositories/Implementation/RolesRepository.cs" Line="1" Column="1" />
+      <File FileName="Gunstoreshoppingcart/FileManager/FileManagerClass.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Gunstoreshoppingcart" expanded="True">
             <Node name="Gunstoreshoppingcart" expanded="True">
-              <Node name="Dependencies" expanded="True">
-                <Node name="FrameworkReferences" expanded="True" />
+              <Node name="Dependencies" expanded="True" />
+              <Node name="FileManager" expanded="True">
+                <Node name="FileManagerClass.cs" selected="True" />
               </Node>
-              <Node name="Exceptions" expanded="True" />
-              <Node name="Models" expanded="True" />
               <Node name="Repositories" expanded="True">
-                <Node name="Implementation" expanded="True">
-                  <Node name="RolesRepository.cs" selected="True" />
-                </Node>
+                <Node name="Implementation" expanded="True" />
               </Node>
             </Node>
           </Node>

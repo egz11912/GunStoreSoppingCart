@@ -10,6 +10,7 @@
     <Folder Include="Repositories\" />
     <Folder Include="Repositories\Implementation\" />
     <Folder Include="Exceptions\" />
+    <Folder Include="FileManager\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Models\CakeDTO.cs" />
