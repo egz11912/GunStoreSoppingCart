@@ -15,7 +15,7 @@ namespace Gunstoreshoppingcart.Repositories.Implementation
         public void GetAllUsersByName(string name)
         {
             List<Users> resultList =
-               currentDatabase.Where(Users => Users.UserName == "name").ToList();
+                currentDatabase.Where(Users => Users.UserName == name).ToList();
 
             if (resultList.Count > 0)
             {
